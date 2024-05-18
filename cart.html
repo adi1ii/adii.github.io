@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>REACT PIZZA</h1>
+        <h2>Самая реактивная пицца</h2>
+    </header>
+    <main>
+        <h2>Корзина</h2>
+        <button onclick="clearCart()">Очистить корзину</button>
+        <section class="cart-container">
+            <section class="cart-items">
+                <article class="cart-item">
+                    <img src="cheese_chicken.jpg" alt="Pizza">
+                    <div class="item-info">
+                        <h3>Сырный цыпленок</h3>
+                        <p>тонкое тесто, 26 см</p>
+                        <span class="price">770 P</span>
+                    </div>
+                    <div class="item-controls">
+                        <button>-</button>
+                        <span class="quantity">1</span>
+                        <button>+</button>
+                    </div>
+                </article>
+                </section>
+            <section class="cart-summary">
+                <p>Всего пицц: 3 шт.</p>
+                <p>Сумма заказа: 900 Р</p>
+                <div class="buttons">
+                    <a href="#">Вернуться назад</a>
+                    <a href="#">Оплатить сейчас</a>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
